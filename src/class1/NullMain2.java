@@ -1,15 +1,12 @@
 package class1;
 
-import ref.Data;
+import class1.ref.Data;
 
-public class NullMain1 {
+public class NullMain2 {
     public static void main(String[] args) {
         Data da = null;
-        System.out.println(da);
-        da = new Data();
-        System.out.println(da);
-        da = null;
-        System.out.println(da);
+        da.value = 10;
+
     }
 
 }

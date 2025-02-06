@@ -1,4 +1,9 @@
 package construct;
 
-public class MemberDefault {
+public class MemberDefaultMain {
+    public static void main(String[] args) {
+        MemberDefault mem = new MemberDefault();
+
+
+    }
 }

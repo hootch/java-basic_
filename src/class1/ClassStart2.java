@@ -1,16 +1,13 @@
 package class1;
 
-public class ClassStart1 {
+public class ClassStart2 {
     public static void main(String[] args) {
-        String student1Name = "student1";
-        int student1Age = 18;
-        int student1Grade = 90;
+        String[] studentNames = {"student1", "student2", "student3"};
+        int[] studentAges = {18, 15, 17};
+        int[] studentGrades = {90, 70, 80};
 
-        String student2Name = "student2";
-        int student2Age = 15;
-        int student2Grade = 70;
-
-        System.out.println(student1Name + " " + student1Age + " " + student1Grade);
-        System.out.println(student2Name + " " + student2Age + " " + student2Grade);
+        for (int i = 0; i < studentNames.length; i++) {
+            System.out.println(studentNames[i] + " " + studentAges[i] + " " + studentGrades[i]);
+        }
     }
 }
